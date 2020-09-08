@@ -22,7 +22,8 @@ namespace HelloWorld
             string age = Console.ReadLine();
             int convertedNumber;
             choice = int.TryParse(age, out convertedNumber);
-            Console.WriteLine(convertedNumber);
+            Console.WriteLine(convertedNumber + "this is a change");
+            Console.ReadLine();
             
         }
     }
