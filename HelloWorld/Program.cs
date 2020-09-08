@@ -16,7 +16,7 @@ namespace HelloWorld
             double number1 = 6.9;
             bool choice;
 
-            var infinite = "caca";
+            var infinite = "pi";
 
             Console.WriteLine("Enter your age: ");
             string age = Console.ReadLine();
