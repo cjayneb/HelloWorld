@@ -18,7 +18,7 @@ namespace HelloWorld
 
             var infinite = "pi";
 
-            Console.WriteLine("Enter your age: ");
+            Console.WriteLine("Enter your favorite show: ");
             string age = Console.ReadLine();
             int convertedNumber;
             choice = int.TryParse(age, out convertedNumber);
